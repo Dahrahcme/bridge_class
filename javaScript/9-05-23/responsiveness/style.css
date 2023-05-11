@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hello{
+    text-align: center;
+    background-color: darkgoldenrod;
+}
+
+@media screen and (max-width: 418px){
+    #hello {
+        background-color: purple;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 720px){
+    #hello {
+        background-color: hotpink;
+        color: blue;
+        text-align: center;
+        display: none;
+    }
+    h2 {
+        color: blueviolet;
+        text-align: center;
+    }
+
+    h3 {
+        color: lawngreen;
+        text-align: center;
+    }
+}
+
+@media print {
+    #hello {
+        color: fuchsia;
+        text-align: center;
+    }
+
+    h2 {
+        color: skyblue;
+        text-align: center;
+    }
+
+    h3 {
+        color: gold;
+        text-align: center;
+    }
+}

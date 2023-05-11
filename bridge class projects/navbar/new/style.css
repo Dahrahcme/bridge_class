@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    background-image: url(https://www.popsci.com/uploads/2023/02/24/AirportPlane.png?auto=webp);
+    background-size: cover;
+}
+
+.navbar {
+    background-color: coral;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/* img {
+    height: 50%
+} */
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    color: teal;
+}
+
+input {
+    background-color: teal;
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 15px;
+    border: none;
+    padding: 7px;
+    color: coral;
+    font-weight: bold;
+    font-size: 15px;
+    transition: scale 0.3 ease;
+}
+
+input:hover {
+    background-color: white;
+    color: teal;
+    scale: 1.05;
+}
+
+#bar {
+    color: white;
+    font-size: 25px;
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .logo a {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    li a {
+        font-size: 15px;
+        margin-right: 15px;
+        text-transform: uppercase;
+    }
+
+    input {
+        margin-left: 5px;
+        width: 70px;
+        padding: 5px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+   
+}

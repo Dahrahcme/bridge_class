@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    background-color: rgb(218, 111, 222);
+    padding: 10px 0px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+    margin: 0px 10px;
+    font-size: 15px;
+}
+
+.content{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.date {
+    color: blue;
+    margin: 1rem 0px;
+}
+
+.article {
+    margin: 15px 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.lorem {
+    font-size: 12px;
+    line-height: 1.5;
+}

@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzD7N0DnY7U02r0YqxntdxbDtbHOUZCKfXFQ&usqp=CAU);
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: slateblue;
+    height: 60px;
+    width: 100%;
+}
+
+.logo {
+    color: bisque;
+    font-size: 35px;
+    line-height: 70px;
+    padding: 10px 100px;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 10px 25px; 
+}
+
+nav ul li a {
+    color: beige;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+a:visited {
+    color: darksalmon;
+}
+
+a:hover {
+    color: darkturquoise;
+    transition: 0.5s;
+    text-decoration: underline purple wavy 1.5px;/*line colour style 1px*/
+}
+
+/* section {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzD7N0DnY7U02r0YqxntdxbDtbHOUZCKfXFQ&usqp=CAU);
+    background-repeat: no-repeat;
+} */
+

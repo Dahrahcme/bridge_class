@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../assesment\ barground.jpg") ;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 15px;   
+}
+
+.logo {
+    margin-left: 120px;
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+span {
+    font-size: 50px;
+    font-weight: 800;
+    color: red;
+ }
+
+.link a {
+    padding: 0px 30px;
+}
+
+.icons{
+    margin-right: 50px;
+}
+
+.icons i {
+    padding: 0px 20px; 
+}
+
+section {
+    margin: 270px 200px;
+}
+
+section h1 {
+    font-size: 55px;
+    font-weight: 600;
+    /* margin-bottom: 10px; */
+}
+
+section h3 {
+    color: rgb(209, 86, 147);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+button {
+    color: white;
+    background-color: black;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+button:hover {
+    color: darksalmon;
+    background-color: white;
+    padding: 10px 20px;
+    transition: ease 0.5s;
+}
