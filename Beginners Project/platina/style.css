@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+}
+
+nav {
+    margin-top: 1em;
+    background-color: white;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    margin-left: 9em;
+}
+ul {
+    margin-right: 10em;
+    gap: 3em;
+    display: flex;
+}
+
+li {
+    display: inline-block;
+    
+}
+
+li a {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    /* margin-right: 3em; */
+    text-transform: uppercase;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
